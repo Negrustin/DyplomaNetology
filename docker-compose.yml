@@ -1,8 +1,8 @@
 version: '3.7'
 services:
 
-node-app:
-    build: gate-simulator
+  node-app:
+    build: ./gate-simulator
     ports:
       - '9999:9999'
   mysqldb:
