@@ -1,0 +1,137 @@
+{
+  "fcab93162aac80c7d97cba23301970d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97ef4c31ce27ccbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666113215823,
+        "stop" : 1666113223834,
+        "duration" : 8011
+      }
+    } ]
+  },
+  "433838f95bef4cd238a0c9a3d2959925" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf80ad42a5b23a9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666113182767,
+        "stop" : 1666113187449,
+        "duration" : 4682
+      }
+    } ]
+  },
+  "e208f41093b6d778a0bdec9b3f1e7e50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe62bcbb7f699dde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666113207888,
+        "stop" : 1666113215813,
+        "duration" : 7925
+      }
+    } ]
+  },
+  "2f1734131eabcfdc50bc8c9dd3d854d8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7accbe620456194e",
+      "status" : "failed",
+      "statusDetails" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: text=\"\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666113199202.0.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666113199202.0.html\r\nTimeout: 10 s.",
+      "time" : {
+        "start" : 1666113187461,
+        "stop" : 1666113199619,
+        "duration" : 12158
+      }
+    } ]
+  },
+  "5c25402c24658710cba2871bbabfb8c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d23778a4f260e13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666113199680,
+        "stop" : 1666113207883,
+        "duration" : 8203
+      }
+    } ]
+  },
+  "31a69f65a0295ae63812b77ce690df5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57bf7de564788e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666113166099,
+        "stop" : 1666113182635,
+        "duration" : 16536
+      }
+    } ]
+  },
+  "8f82edcf995b7d3237d0d5f22eae8ad1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b59ced72089325be",
+      "status" : "failed",
+      "statusDetails" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: text=\"\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666113235344.1.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666113235344.1.html\r\nTimeout: 10 s.",
+      "time" : {
+        "start" : 1666113223840,
+        "stop" : 1666113235759,
+        "duration" : 11919
+      }
+    } ]
+  }
+}

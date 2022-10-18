@@ -1,0 +1,136 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.netology.tourPayment.test",
+    "children" : [ {
+      "name" : "PaymentOnCreditTest",
+      "children" : [ {
+        "name" : "shouldSuccessMessageIfPaymentOnCredit",
+        "uid" : "57bf7de564788e2a",
+        "parentUid" : "4c674f83addad2538b3ac25dfcbd3846",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666113166099,
+          "stop" : 1666113182635,
+          "duration" : 16536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldStatusCodeIfPaymentOnCredit",
+        "uid" : "bf80ad42a5b23a9d",
+        "parentUid" : "4c674f83addad2538b3ac25dfcbd3846",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666113182767,
+          "stop" : 1666113187449,
+          "duration" : 4682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldRejectionMessageIfPaymentOfCredit",
+        "uid" : "7accbe620456194e",
+        "parentUid" : "4c674f83addad2538b3ac25dfcbd3846",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666113187461,
+          "stop" : 1666113199619,
+          "duration" : 12158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c674f83addad2538b3ac25dfcbd3846"
+    }, {
+      "name" : "PaymentsOnCardTest",
+      "children" : [ {
+        "name" : "shouldSuccessMessageIfPaymentOfCard",
+        "uid" : "8d23778a4f260e13",
+        "parentUid" : "ac8c19b09065123052830aae496f5c57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666113199680,
+          "stop" : 1666113207883,
+          "duration" : 8203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldStatusCodeIfTransactionIsUnsuccessful",
+        "uid" : "fe62bcbb7f699dde",
+        "parentUid" : "ac8c19b09065123052830aae496f5c57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666113207888,
+          "stop" : 1666113215813,
+          "duration" : 7925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldStatusCodeIfTransactionIsSuccessful",
+        "uid" : "97ef4c31ce27ccbc",
+        "parentUid" : "ac8c19b09065123052830aae496f5c57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666113215823,
+          "stop" : 1666113223834,
+          "duration" : 8011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldRejectionMessageIfPaymentOfCard",
+        "uid" : "b59ced72089325be",
+        "parentUid" : "ac8c19b09065123052830aae496f5c57",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666113223840,
+          "stop" : 1666113235759,
+          "duration" : 11919
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac8c19b09065123052830aae496f5c57"
+    } ],
+    "uid" : "ru.netology.tourPayment.test"
+  } ]
+}

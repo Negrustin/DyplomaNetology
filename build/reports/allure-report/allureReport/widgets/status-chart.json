@@ -1,0 +1,71 @@
+[ {
+  "uid" : "7accbe620456194e",
+  "name" : "Покупка в кредит запрещённой  картой, отображается сообщение об отказе в операции банком",
+  "time" : {
+    "start" : 1666113187461,
+    "stop" : 1666113199619,
+    "duration" : 12158
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "97ef4c31ce27ccbc",
+  "name" : "Покупка разрешенной картой, статус в базе данных: 'APPROVED'.",
+  "time" : {
+    "start" : 1666113215823,
+    "stop" : 1666113223834,
+    "duration" : 8011
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b59ced72089325be",
+  "name" : "A message should appear telling you that the operation has been rejected.",
+  "time" : {
+    "start" : 1666113223840,
+    "stop" : 1666113235759,
+    "duration" : 11919
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "57bf7de564788e2a",
+  "name" : "Покупка в кредит разрешенной картой, отображается сообщение об одобрении операции банком",
+  "time" : {
+    "start" : 1666113166099,
+    "stop" : 1666113182635,
+    "duration" : 16536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d23778a4f260e13",
+  "name" : "Покупка разрешенной картой, отображается сообщение об одобрении банком",
+  "time" : {
+    "start" : 1666113199680,
+    "stop" : 1666113207883,
+    "duration" : 8203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe62bcbb7f699dde",
+  "name" : "The status in the database should be 'DECLINED'",
+  "time" : {
+    "start" : 1666113207888,
+    "stop" : 1666113215813,
+    "duration" : 7925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf80ad42a5b23a9d",
+  "name" : "Покупка в кредит разрешенной картой, статус операции в БД 'APPROVED'",
+  "time" : {
+    "start" : 1666113182767,
+    "stop" : 1666113187449,
+    "duration" : 4682
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

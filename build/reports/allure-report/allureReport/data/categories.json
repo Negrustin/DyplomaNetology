@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: text=\"\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666113199202.0.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666113199202.0.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "Покупка в кредит запрещённой  картой, отображается сообщение об отказе в операции банком",
+        "uid" : "7accbe620456194e",
+        "parentUid" : "1e2b774df36cf31b05e4a2a1788a994c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666113187461,
+          "stop" : 1666113199619,
+          "duration" : 12158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e2b774df36cf31b05e4a2a1788a994c"
+    }, {
+      "name" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: text=\"\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666113235344.1.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666113235344.1.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "A message should appear telling you that the operation has been rejected.",
+        "uid" : "b59ced72089325be",
+        "parentUid" : "d3e9e1465731a0546bfdb26374e40fe5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666113223840,
+          "stop" : 1666113235759,
+          "duration" : 11919
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3e9e1465731a0546bfdb26374e40fe5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

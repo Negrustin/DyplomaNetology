@@ -1,0 +1,132 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.netology.tourPayment.test.PaymentOnCreditTest",
+    "children" : [ {
+      "name" : "Покупка в кредит разрешенной картой, отображается сообщение об одобрении операции банком",
+      "uid" : "57bf7de564788e2a",
+      "parentUid" : "099b458f848b30cbab6f649a11b1e207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666113166099,
+        "stop" : 1666113182635,
+        "duration" : 16536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Покупка в кредит разрешенной картой, статус операции в БД 'APPROVED'",
+      "uid" : "bf80ad42a5b23a9d",
+      "parentUid" : "099b458f848b30cbab6f649a11b1e207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666113182767,
+        "stop" : 1666113187449,
+        "duration" : 4682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Покупка в кредит запрещённой  картой, отображается сообщение об отказе в операции банком",
+      "uid" : "7accbe620456194e",
+      "parentUid" : "099b458f848b30cbab6f649a11b1e207",
+      "status" : "failed",
+      "time" : {
+        "start" : 1666113187461,
+        "stop" : 1666113199619,
+        "duration" : 12158
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "099b458f848b30cbab6f649a11b1e207"
+  }, {
+    "name" : "ru.netology.tourPayment.test.PaymentsOnCardTest",
+    "children" : [ {
+      "name" : "Покупка разрешенной картой, отображается сообщение об одобрении банком",
+      "uid" : "8d23778a4f260e13",
+      "parentUid" : "801447491d45af965afa0d8cb75d655a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666113199680,
+        "stop" : 1666113207883,
+        "duration" : 8203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "The status in the database should be 'DECLINED'",
+      "uid" : "fe62bcbb7f699dde",
+      "parentUid" : "801447491d45af965afa0d8cb75d655a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666113207888,
+        "stop" : 1666113215813,
+        "duration" : 7925
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Покупка разрешенной картой, статус в базе данных: 'APPROVED'.",
+      "uid" : "97ef4c31ce27ccbc",
+      "parentUid" : "801447491d45af965afa0d8cb75d655a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666113215823,
+        "stop" : 1666113223834,
+        "duration" : 8011
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "A message should appear telling you that the operation has been rejected.",
+      "uid" : "b59ced72089325be",
+      "parentUid" : "801447491d45af965afa0d8cb75d655a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1666113223840,
+        "stop" : 1666113235759,
+        "duration" : 11919
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "801447491d45af965afa0d8cb75d655a"
+  } ]
+}

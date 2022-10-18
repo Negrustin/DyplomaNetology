@@ -1,0 +1,270 @@
+{
+  "uid" : "fe62bcbb7f699dde",
+  "name" : "The status in the database should be 'DECLINED'",
+  "fullName" : "ru.netology.tourPayment.test.PaymentsOnCardTest.shouldStatusCodeIfTransactionIsUnsuccessful",
+  "historyId" : "e208f41093b6d778a0bdec9b3f1e7e50",
+  "time" : {
+    "start" : 1666113207888,
+    "stop" : 1666113215813,
+    "duration" : 7925
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1666113199674,
+      "stop" : 1666113199674,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1666113207889,
+        "stop" : 1666113207935,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //h2[contains(class,heading)]\") should be(visible)",
+      "time" : {
+        "start" : 1666113207935,
+        "stop" : 1666113207964,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Купить']\") click()",
+      "time" : {
+        "start" : 1666113207965,
+        "stop" : 1666113208087,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //h3[text()='Оплата по карте']\") should be(visible)",
+      "time" : {
+        "start" : 1666113208087,
+        "stop" : 1666113208125,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Номер карты']/..//input\") set value(4444444444444442)",
+      "time" : {
+        "start" : 1666113208126,
+        "stop" : 1666113208439,
+        "duration" : 313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Месяц']/..//input\") set value(09)",
+      "time" : {
+        "start" : 1666113208440,
+        "stop" : 1666113208694,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Год']/..//input\") set value(24)",
+      "time" : {
+        "start" : 1666113208694,
+        "stop" : 1666113208907,
+        "duration" : 213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Владелец']/..//input\") set value(Alleen Schmeler)",
+      "time" : {
+        "start" : 1666113208907,
+        "stop" : 1666113209169,
+        "duration" : 262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='CVC/CVV']/..//input\") set value(728)",
+      "time" : {
+        "start" : 1666113209170,
+        "stop" : 1666113209414,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Продолжить']\") click()",
+      "time" : {
+        "start" : 1666113209414,
+        "stop" : 1666113209520,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".notification\") should be([visible, 10 s.])",
+      "time" : {
+        "start" : 1666113209520,
+        "stop" : 1666113215773,
+        "duration" : 6253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1666113235767,
+      "stop" : 1666113235768,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.tourPayment.test.PaymentsOnCardTest]/[method:shouldStatusCodeIfTransactionIsUnsuccessful()]"
+  }, {
+    "name" : "host",
+    "value" : "Alex"
+  }, {
+    "name" : "thread",
+    "value" : "63648@Alex.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.tourPayment.test.PaymentsOnCardTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.tourPayment.test.PaymentsOnCardTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldStatusCodeIfTransactionIsUnsuccessful"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.tourPayment.test.PaymentsOnCardTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe62bcbb7f699dde.json",
+  "parameterValues" : [ ]
+}
