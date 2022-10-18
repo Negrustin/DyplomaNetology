@@ -25,7 +25,7 @@ public class PaymentsOnCardTest {
     @Test
     @DisplayName("Покупка разрешенной картой, отображается сообщение об одобрении банком")
     void shouldSuccessMessageIfPaymentOfCard() {
-        var mainPage = open("http://104.0.5112.101:8080", MainPage.class);
+        var mainPage = open("http://104.0.5112.79:57972", MainPage.class);
         var paymentOnCardPage = mainPage.paymentOnCard();
 
         paymentOnCardPage.payOnCard(DataHelper.getApprovedCardInfo());
