@@ -4,7 +4,7 @@ services:
   node-app:
     build: ./gate-simulator
     ports:
-      - '9090:9090'
+      - '9999:9999'
   mysqldb:
     image: mysql:latest
     ports:
