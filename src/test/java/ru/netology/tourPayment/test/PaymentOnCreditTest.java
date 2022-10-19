@@ -50,17 +50,17 @@ public class PaymentOnCreditTest {
         Assertions.assertEquals(expected,actual);
     }
 
-    @Test
-    @DisplayName("Покупка в кредит запрещённой  картой, отображается сообщение об отказе в операции банком")
-    void shouldRejectionMessageIfPaymentOfCredit(){
-        var mainPage = open("http://localhost:8080", MainPage.class);
-        var paymentOnCreditPage = mainPage.PaymentOnCredit();
+//     @Test
+//     @DisplayName("Покупка в кредит запрещённой  картой, отображается сообщение об отказе в операции банком")
+//     void shouldRejectionMessageIfPaymentOfCredit(){
+//         var mainPage = open("http://localhost:8080", MainPage.class);
+//         var paymentOnCreditPage = mainPage.PaymentOnCredit();
 
-        paymentOnCreditPage.payOnCard(DataHelper.getDeclinedCardInfo());
+//         paymentOnCreditPage.payOnCard(DataHelper.getDeclinedCardInfo());
 
-        paymentOnCreditPage.shouldErrorMessage("Банк отказал в проведении операции");
+//         paymentOnCreditPage.shouldErrorMessage("Банк отказал в проведении операции");
 
-    }
+//     }
 
 
 
