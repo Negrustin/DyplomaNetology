@@ -53,16 +53,16 @@ public class PaymentsOnCardTest {
     }
 
 
-//     @Test
-//     @DisplayName("A message should appear telling you that the operation has been rejected.")
-//     void shouldRejectionMessageIfPaymentOfCard() {
-//         var mainPage = open("http://localhost:8080", MainPage.class);
-//         var paymentOnCardPage = mainPage.paymentOnCard();
+    @Test
+    @DisplayName("A message should appear telling you that the operation has been rejected.")
+    void shouldRejectionMessageIfPaymentOfCard() {
+        var mainPage = open("http://localhost:8080", MainPage.class);
+        var paymentOnCardPage = mainPage.paymentOnCard();
 
-//         paymentOnCardPage.payOnCard(DataHelper.getDeclinedCardInfo());
+        paymentOnCardPage.payOnCard(DataHelper.getDeclinedCardInfo());
 
-//         paymentOnCardPage.shouldErrorMessage("Банк отказал в проведении операции");
-//     }
+        paymentOnCardPage.shouldErrorMessage("Банк отказал в проведении операции");
+    }
     @Test
     @DisplayName("The status in the database should be 'DECLINED'")
     void shouldStatusCodeIfTransactionIsUnsuccessful(){
